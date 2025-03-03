@@ -42,6 +42,9 @@ PRODUCT_PACKAGES += \
     ViliSettingsProviderOverlay \
     ViliWifiOverlay
 
+# Private keys
+-include vendor/lineage-priv/keys/keys.mk
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
