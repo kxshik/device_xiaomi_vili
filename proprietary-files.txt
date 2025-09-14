@@ -853,33 +853,33 @@ vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sns_reg_config
 
 # Thermal configs
-vendor/etc/thermald-devices.conf|775ea6fbb1a3163fa2b0c3e151e5fd42
+vendor/etc/thermald-devices.conf|8534208980e8c38b32d0abf391ee6171
 vendor/etc/thermal-engine.conf|f24854923f7aa9793a3d21a500db09b2
-vendor/etc/thermal-map.conf|15d9b588a4d5c8395f80ccb2d62c69e2
+vendor/etc/thermal-map.conf|748695e8f5b189ad953a7e03c15779a4
 vendor/etc/thermal-map-india.conf|9dc1c8f79dcb6f4033097a6915e63d00
 vendor/etc/thermal-region-map.conf|2385a9de9c7eff3eb479eb63b95a9df5
 
 # Thermal configs - (modified)
-vendor/etc/thermal-camera.conf|e52cc9b3e3ff742908b00ff846ebf85b
-vendor/etc/thermal-class0.conf|f09d211d176c8a91e055c23d664dcf3d
-vendor/etc/thermal-huanji.conf|6c4e46383cb12e7dbd4e4c0bbe3b2902
-vendor/etc/thermal-india-camera.conf|bf1cd05ec5e36f4dd80c9e8e28027cab
-vendor/etc/thermal-india-class0.conf|913ee25f94c0ec20ae5ccef0e289db69
-vendor/etc/thermal-india-huanji.conf|0cf3292449188d1efdb9473ea599f42b
-vendor/etc/thermal-india-mgame.conf|16099263262612aa3181c742fdac0af6
-vendor/etc/thermal-india-navigation.conf|ad4f1e31a84b3b4f07e1afef05da139c
-vendor/etc/thermal-india-nolimits.conf|2440a92453f9e2ce914c0fabbe89afc3
-vendor/etc/thermal-india-normal.conf|7a72394ea29d7482fdf37f2066c2aede
-vendor/etc/thermal-india-phone.conf|5119bd39f0367cac93217e9fb9b1e591
-vendor/etc/thermal-india-tgame.conf|2bdba7a3024a0341eb72925ded411846
-vendor/etc/thermal-india-video.conf|6c01eebd0b066696e61600a878147aba
-vendor/etc/thermal-mgame.conf|4bdb87732a9e827e9d618f6386da7c79
-vendor/etc/thermal-navigation.conf|c1e0aa0491bb9bb25893764a424b971e
-vendor/etc/thermal-nolimits.conf|01e4d8d9489b29f51b62eefe565f1ecc
-vendor/etc/thermal-normal.conf|de8c3a46051803179b2c7e29e0a3abd5
-vendor/etc/thermal-phone.conf|f8f5b5d08f8c5682f02405b28ec1b161
-vendor/etc/thermal-tgame.conf|e51b626e632f2f1c8b3c789b637d2060
-vendor/etc/thermal-video.conf|2d0d0625e3b65545704d5869695426e1
+vendor/etc/thermal-camera.conf|94d30e39a1c5f042b48515acc568cc3e
+vendor/etc/thermal-class0.conf|17c319639d6b1af97b43c34a482de106
+vendor/etc/thermal-huanji.conf|5441df28db408aeb845da0f32b3ebaa1
+vendor/etc/thermal-india-camera.conf|60a750e0d9a635ca022178fe233ab908
+vendor/etc/thermal-india-class0.conf|aa836c158ff559f8c70df95c078881f0
+vendor/etc/thermal-india-huanji.conf|3242819de271d727bd0dc4eb431dbb76
+vendor/etc/thermal-india-mgame.conf|d5b487ef4d2da19bb706cbfda6e11a60
+vendor/etc/thermal-india-navigation.conf|ac52be02d7b151bc73812642eddd32e3
+vendor/etc/thermal-india-nolimits.conf|4567d9425a60f750ad08183f589a221e
+vendor/etc/thermal-india-normal.conf|8587191d77d2c6428c5b450d15d172a5
+vendor/etc/thermal-india-phone.conf|dd82b7937eb3de2f02376c387547bf50
+vendor/etc/thermal-india-tgame.conf|8f467cd675a320530efd5962218884ae
+vendor/etc/thermal-india-video.conf|fad907f0cf369cd0a6a9ef7a02e19229
+vendor/etc/thermal-mgame.conf|c4903ebe089d875bdd2e19e14015b585
+vendor/etc/thermal-navigation.conf|5859c5b11c5f9abf1cf86406863377d0
+vendor/etc/thermal-nolimits.conf|541f8bb2b0290dec10f35f840d257cb7
+vendor/etc/thermal-normal.conf|81d94c100d01e8e2cefd8407f24670b7
+vendor/etc/thermal-phone.conf|e428b49a97cc6f7677b56e0f028d9d32
+vendor/etc/thermal-tgame.conf|43c5c96328121801d37792777ca9356d
+vendor/etc/thermal-video.conf|c999e5792e859805133b08a61c055f89
 
 # Touchscreen firmware
 vendor/firmware/st_fts_k3s.ftb
