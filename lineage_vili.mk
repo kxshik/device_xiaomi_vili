@@ -25,3 +25,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="vili-user 14 UKQ1.231207.002 V816.0.22.0.UKDMIXM release-keys" \
     BuildFingerprint=Xiaomi/vili/vili:14/UKQ1.231207.002/V816.0.22.0.UKDMIXM:user/release-keys
+
+# Flags
+WITH_GMS := true
+WITH_BCR := false
+TARGET_SUPPORTS_GOOGLE_TELEPHONY := false

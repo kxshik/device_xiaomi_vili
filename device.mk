@@ -42,6 +42,9 @@ PRODUCT_PACKAGES += \
 # Private keys
 -include vendor/lineage-priv/keys/keys.mk
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
