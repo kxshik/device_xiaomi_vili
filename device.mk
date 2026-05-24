@@ -40,7 +40,9 @@ PRODUCT_PACKAGES += \
     ViliWifiOverlay
 
 # Private keys
+ifeq ($(TARGET_INCLUDES_keys),true)
 -include vendor/lineage-priv/keys/keys.mk
+endif
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
