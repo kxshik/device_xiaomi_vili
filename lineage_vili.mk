@@ -9,16 +9,19 @@ $(call inherit-product, device/xiaomi/vili/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# DerpFest Flags
-DERPFEST_BUILD_TYPE := Official
+# Axion Flags
+AXION_CAMERA_REAR_INFO := 108,8,5
+AXION_CAMERA_FRONT_INFO := 16
+AXION_MAINTAINER := kxshik
+AXION_PROCESSOR := Snapdragon©_888
+TARGET_INCLUDES_LOS_PREBUILTS := false
 WITH_GMS := true
-
-# Extras
+TARGET_DISABLE_EPPE := true
+TARGET_NEEDS_VULKAN_MEDIA_FIX := true
+TARGET_SUPPORTED_REFRESH_RATES := 60,120
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_INCLUDE_ACCORD := false
-TARGET_EXCLUDE_BACKUPTOOL := true
 
 # Device identifier
 PRODUCT_BRAND := Xiaomi
