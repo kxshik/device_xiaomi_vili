@@ -20,7 +20,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     FrameworkOverlayVili \
-    SettingsOverlayVili \
     SettingsProviderOverlayVili \
     SystemUIOverlayVili \
     WifiOverlayVili \
