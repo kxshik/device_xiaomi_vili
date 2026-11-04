@@ -1,4 +1,5 @@
 Copyright (C) 2024 - The LineageOS Project
+Copyright (C) 2026 - Paranoid Android
 
 Device configuration for Xiaomi 11T Pro
 =======================================
