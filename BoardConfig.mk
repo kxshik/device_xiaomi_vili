@@ -5,13 +5,6 @@
 
 DEVICE_PATH := device/xiaomi/vili
 
-# Prebuilt Kernel
-TARGET_PREBUILT_KERNEL := device/xiaomi/vili-kernel/Image
-BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/vili-kernel/dtbs/dtbo.img
-BOARD_PREBUILT_DTBIMAGE_DIR := device/xiaomi/vili-kernel/dtbs
-TARGET_PREBUILT_DTB := device/xiaomi/vili-kernel/dtbs/lahaina.dtb
-TARGET_BOARD_KERNEL_HEADERS := device/xiaomi/vili-kernel/kernel-headers
-
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
@@ -27,11 +20,10 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
 # Firmware
 -include vendor/xiaomi/vili-firmware/BoardConfigVendor.mk
 
-# Kernel modules
-PREBUILT_KERNEL_PATH := device/xiaomi/vili-kernel
-BOARD_VENDOR_RAMDISK_KERNEL_MODULES := $(wildcard $(PREBUILT_KERNEL_PATH)/vendor_ramdisk/*.ko)
-BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(PREBUILT_KERNEL_PATH)/vendor_dlkm/*.ko)
+# Kernel
+TARGET_KERNEL_CONFIG += vendor/vili_QGKI.config
 
+# Kernel modules
 BOOT_KERNEL_MODULES := \
     fts_touch_spi.ko \
     adsp_loader_dlkm.ko \

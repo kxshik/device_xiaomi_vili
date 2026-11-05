@@ -26,13 +26,11 @@ PRODUCT_PACKAGES += \
     NfcOverlayVili
 
 PRODUCT_COPY_FILES += \
-    device/xiaomi/vili-kernel/Image:kernel \
     $(LOCAL_PATH)/rro_overlays/config-odm.xml:$(TARGET_COPY_OUT_ODM)/overlay/config/config.xml
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    device/xiaomi/vili-kernel
+    $(LOCAL_PATH)
 
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
