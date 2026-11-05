@@ -24,9 +24,7 @@ from extract_utils.makefiles import (
 )
 
 namespace_imports = [
-    'hardware/qcom-caf/sm8350',
     'hardware/xiaomi',
-    'vendor/qcom/opensource/display',
     'vendor/xiaomi/sm8350-common',
 ]
 
