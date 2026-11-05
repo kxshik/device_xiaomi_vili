@@ -20,8 +20,10 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
 # Firmware
 -include vendor/xiaomi/vili-firmware/BoardConfigVendor.mk
 
-# Kernel
-TARGET_KERNEL_CONFIG += vendor/vili_QGKI.config
+# Prebuilt Kernel
+TARGET_PREBUILT_KERNEL := device/xiaomi/vili-kernel/Image
+BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/vili-kernel/dtbs/dtbo.img
+TARGET_PREBUILT_DTB := device/xiaomi/vili-kernel/dtbs/lahaina.dtb
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
