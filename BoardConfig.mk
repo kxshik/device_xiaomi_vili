@@ -21,7 +21,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
 -include vendor/xiaomi/vili-firmware/BoardConfigVendor.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/vili_QGKI.config
+KERNEL_FRAGMENT_CONFIG += vendor/vili_QGKI.config
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
