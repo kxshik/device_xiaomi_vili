@@ -5,6 +5,12 @@
 
 DEVICE_PATH := device/xiaomi/vili
 
+# Prebuilt Kernel
+TARGET_PREBUILT_KERNEL := device/xiaomi/vili-kernel/Image
+BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/vili-kernel/dtbs/dtbo.img
+BOARD_PREBUILT_DTBIMAGE_DIR := device/xiaomi/vili-kernel/dtbs
+TARGET_PREBUILT_DTB := device/xiaomi/vili-kernel/dtbs/lahaina.dtb
+
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
@@ -19,11 +25,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
 
 # Firmware
 -include vendor/xiaomi/vili-firmware/BoardConfigVendor.mk
-
-# Prebuilt Kernel
-TARGET_PREBUILT_KERNEL := device/xiaomi/vili-kernel/Image
-BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/vili-kernel/dtbs/dtbo.img
-TARGET_PREBUILT_DTB := device/xiaomi/vili-kernel/dtbs/lahaina.dtb
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
