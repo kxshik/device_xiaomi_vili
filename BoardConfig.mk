@@ -28,6 +28,10 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
 -include vendor/xiaomi/vili-firmware/BoardConfigVendor.mk
 
 # Kernel modules
+PREBUILT_KERNEL_PATH := device/xiaomi/vili-kernel
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES := $(wildcard $(PREBUILT_KERNEL_PATH)/vendor_ramdisk/*.ko)
+BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(PREBUILT_KERNEL_PATH)/vendor_dlkm/*.ko)
+
 BOOT_KERNEL_MODULES := \
     fts_touch_spi.ko \
     adsp_loader_dlkm.ko \
