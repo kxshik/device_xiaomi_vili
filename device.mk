@@ -26,6 +26,7 @@ PRODUCT_PACKAGES += \
     NfcOverlayVili
 
 PRODUCT_COPY_FILES += \
+    $(TARGET_PREBUILT_KERNEL):kernel \
     $(LOCAL_PATH)/rro_overlays/config-odm.xml:$(TARGET_COPY_OUT_ODM)/overlay/config/config.xml
 
 # Soong namespaces
