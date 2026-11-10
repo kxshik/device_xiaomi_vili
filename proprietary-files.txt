@@ -658,7 +658,6 @@ vendor/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
 
 # Sensors
 vendor/bin/init.qcom.sensors.sh
-vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/lib64/libnotifyaudiohal.so;FIX_SONAME
 vendor/lib64/libsns_api.so
 vendor/lib64/libssccalapi.so
