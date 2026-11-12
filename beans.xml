@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../../../vendor/aospa/products/platforms/lahaina.xml" />
+
+  <!-- Hardware Interfaces -->
+  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="calcite" />
+</manifest>
