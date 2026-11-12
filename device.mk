@@ -20,13 +20,13 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     FrameworkOverlayVili \
-    SettingsOverlayVili \
     SettingsProviderOverlayVili \
     SystemUIOverlayVili \
     WifiOverlayVili \
     NfcOverlayVili
 
 PRODUCT_COPY_FILES += \
+    device/xiaomi/vili-kernel/Image:kernel \
     $(LOCAL_PATH)/rro_overlays/config-odm.xml:$(TARGET_COPY_OUT_ODM)/overlay/config/config.xml
 
 # Soong namespaces
