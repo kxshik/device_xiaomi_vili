@@ -35,8 +35,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.set_idle_timer_ms=6000 \
-    ro.surface_flinger.set_touch_timer_ms=6000 \
+    ro.surface_flinger.set_idle_timer_ms=1500 \
+    ro.surface_flinger.set_touch_timer_ms=200 \
     ro.surface_flinger.set_display_power_timer_ms=1000
 
 # Vibrator

@@ -346,12 +346,12 @@
          the brightness value is negative, only the lux threshold is applied. -->
     <!-- Low zone brightness thresholds in the range [0, 255] -->
     <integer-array name="config_brightnessThresholdsOfPeakRefreshRate">
-        <item>74</item> <!-- 77% UI brightness -->
+        <item>-1</item>
     </integer-array>
 
     <!-- Low zone lux thresholds -->
     <integer-array name="config_ambientThresholdsOfPeakRefreshRate">
-        <item>63</item>
+        <item>-1</item>
     </integer-array>
 
     <!-- An array of arrays of side fingerprint sensor properties relative to each display.
