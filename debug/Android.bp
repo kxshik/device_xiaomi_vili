@@ -1,0 +1,21 @@
+//
+// Copyright (C) 2026 Paranoid Android
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Boot debugging: dumps logs to /metadata/sm8350-debug, which survives a
+// hang and can be read from recovery.
+
+prebuilt_etc {
+    name: "init.sm8350.debug.rc",
+    src: "init.sm8350.debug.rc",
+    sub_dir: "init",
+    system_ext_specific: true,
+}
+
+sh_binary {
+    name: "sm8350-debuglog.sh",
+    src: "sm8350-debuglog.sh",
+    system_ext_specific: true,
+}
