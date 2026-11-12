@@ -1,5 +1,9 @@
 # Audio hardware
-ro.hardware.audio.primary=vili
+ro.hardware.audio.primary=lahaina
+vendor.audio.feature.spkr_prot.enable=false
+persist.vendor.audio.speaker.prot.enable=false
+persist.vendor.audio.vbat.enabled=false
+vendor.audio.feature.vbat.enable=false
 
 # Bluetooth
 bluetooth.device.default_name=Xiaomi 11T Pro
