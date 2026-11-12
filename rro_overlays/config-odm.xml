@@ -6,7 +6,6 @@
     <overlay package="android.overlay.vili" mutable="false" enabled="true" />
     <overlay package="com.android.nfc.overlay.vili" mutable="false" enabled="true" />
     <overlay package="com.android.providers.settings.overlay.vili" mutable="false" enabled="true" />
-    <overlay package="com.android.settings.overlay.vili" mutable="false" enabled="true" />
     <overlay package="com.android.systemui.overlay.vili" mutable="false" enabled="true" />
     <overlay package="com.android.wifi.resources.overlay.vili" mutable="false" enabled="true" />
 </config>
